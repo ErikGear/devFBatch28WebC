@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,96 @@
     <link rel="stylesheet" href="./css/styles.css" as="style">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
     <header>
-        <h1>El blog de DEV.F</h1>
+        <h1>El blog de Erik</h1>
     </header>
-    <hr/>
+    <hr />
 
     <main> <!--Es recomendable emplear una unica etiqueta main por documento HTML-->
-        
-        <hgroup> 
+
+        <hgroup>
             <h2>Subtitulo de una Noticia</h2>
             <h3>Subtitulo Secundario de una Noticia</h3>
         </hgroup>
 
     </main>
 
-    <img src="./assets/images/imagensita.jpg" alt="Aqui normalmente hay una imagen" title="imagensita" text="">
+    <img src="./assets/images/imagensita.jpg" alt="Aqui normalmente hay una imagen" title="imagensita" width="320px">
+
+    <!--Nos ayuda a colocar citas textuales resaltando el texto-->
+    <small> <!--Significado semantico para los navegadores-->
+        <blockquote>
+            "El autor de la foto es, fulano"
+        </blockquote>
+    </small>
+
+    <article>
+        <!--Sirve para colocar recursos de nuestro sitio web-->
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus a recusandae nisi vitae necessitatibus?
+            Ipsam cum quasi expedita facilis dolor quisquam magnam recusandae quod sit
+            tempore dolores quam, reiciendis quia.
+        </p>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati, ipsam?
+        </p>
+
+        <ul> <!-- UNORDERED LIST -->
+
+            <!-- LIST ITEMS -->
+            <li>Lorem.</li>
+            <li>Lorem, ipsum.</li>
+            <li>Lorem, ipsum dolor.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Excepturi aliquid in molestias et voluptate quam?
+        </p>
+
+    </article>
+
+    <hr />
+
+    <h4>Otro subtitulo</h4>
+
+    <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/fC5MKJDW6sc" 
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen>
+    </iframe>
+    <br/>
+    <small>
+        Video cortesia de <a href="https://www.youtube.com/watch?v=fC5MKJDW6sc" target="_blank">One Piece - Toi Animation</a>
+    </small>
+
+    <ol> <!-- ORDERED LIST--> 
+        <li>Elemento</li>
+        <li>Elemento</li>
+        <li>Elemento</li>
+    </ol>
+
+    <hr/>
+
+    <footer>
+        <p>
+            Autor: <b>Erik Galindo</b> | Derechos reservados 2023 &copy;
+        </p>
+        <a href="mailto:#">erik@gmail.com</a> | Whatssap <a href="https://wa.me/NUMERO-CEL"></a>
+    </footer>
+
+    <script>
+        alert("¡Bienvenido al Blog de Erik!");
+    </script>
 
 </body>
+
 </html>
