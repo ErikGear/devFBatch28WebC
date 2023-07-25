@@ -8,3 +8,10 @@ body {
     background-color: pink;
 }
 
+
+ol li {
+    list-style: upper-roman;
+}
+
+
+
